@@ -26,8 +26,8 @@ for what changed along the way.
 
 ```
                        ┌───────────────────┐
-   HTTPS               │   CloudFront       │        HTTP (port 80 only,
- ───────────────────▶  │   distribution     │  ────▶  from CloudFront's
+   HTTPS               │   CloudFront      │         HTTP (port 80 only,
+ ───────────────────▶  │   distribution    │  ────▶  from CloudFront's
                        └───────────────────┘         managed prefix list)
                                                               │
                                                               ▼
